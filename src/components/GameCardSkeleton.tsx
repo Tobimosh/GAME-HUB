@@ -1,11 +1,11 @@
-import { Card, CardBody, Skeleton } from '@chakra-ui/react'
+import { Card, CardBody, Skeleton, SkeletonText } from '@chakra-ui/react'
 
 const GameCardSkeleton = () => {
   return (
-    <Card width='300px' borderRadius='10px' overflow='hidden'>
+    <Card >
         <Skeleton height='200px'/>
         <CardBody>
-            <Skeleton/>
+            <SkeletonText/>
         </CardBody>
 
     </Card>
