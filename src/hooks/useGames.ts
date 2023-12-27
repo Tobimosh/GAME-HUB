@@ -33,7 +33,4 @@ const useGames = () => {
 
 }
 
-
-console.log(useGames)
-
 export default useGames;
