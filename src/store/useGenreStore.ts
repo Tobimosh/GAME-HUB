@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { Game } from "../hooks/useGames";
+import { Game } from "../entities/Game";
 import { set } from "react-hook-form";
 
 interface GameQuery {
