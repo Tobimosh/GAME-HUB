@@ -1,6 +1,4 @@
 import { create } from "zustand";
-import { Game } from "../entities/Game";
-import { set } from "react-hook-form";
 
 interface GameQuery {
   genreId?: number;
